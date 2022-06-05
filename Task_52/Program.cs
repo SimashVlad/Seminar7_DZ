@@ -32,7 +32,8 @@ void PrintArray(Double[,] array)
 }
 
 rndArray(array);
-PrintArray(array);
+// PrintArray(array);
+Console.WriteLine();
 
 Double[,] arrayWhole = new Double[m, n];
 arrayWhole = TransformationArrayWhole(array);
